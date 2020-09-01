@@ -1,0 +1,137 @@
+/*
+ * Globals
+ */
+
+ @font-face {
+   font-family: 'nasalation';
+   src: url('./fonts/nasalization.ttf');
+ }
+
+ @font-face {
+   font-family: 'sfmono';
+   src: url('./fonts/SFMono-Light.otf');
+ }
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #333333;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #f9f9f9;
+  overflow: auto;
+  font-family: 'sfmono', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #333333;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 46em;
+}
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+  font-family: 'nasalation', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(55, 55, 55, .8);
+  background-color: transparent;
+  border-bottom: .15rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(254, 115, 61, .5);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #333333;
+  border-bottom-color: rgba(75,187,255, 0.8);
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 2.7em;
+  margin-bottom: 5vh;
+  padding-top: 20px;
+  font-family: 'nasalation', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  color: #333333;
+}
+
+.subtitle {
+  font-size: 2.0em;
+  padding-top: .7rem;
+  font-family: 'nasalation', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  color: #333333;
+  text-shadow: .1rem .1rem 0.7rem rgba(0, 0, 0, .3);
+}
+
+.logo {
+  padding-bottom: 1rem;
+  filter: drop-shadow(0.1rem 0.3rem 0.5rem rgba(0, 0, 0, 0.4));
+}
+
+.social-icon {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  opacity: .7;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(55, 55, 55, .5);
+  padding-top: 1rem;
+}
+
+.footer-tagline {
+  padding-top: 1rem;
+}
