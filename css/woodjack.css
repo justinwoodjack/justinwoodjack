@@ -12,6 +12,12 @@
    src: url('./fonts/SFMono-Light.otf');
  }
 
+ @font-face {
+   font-family: 'raleway';
+   src: url('./fonts/Raleway-ExtraLight.ttf');
+ }
+
+
 /* Links */
 a,
 a:focus,
@@ -106,16 +112,17 @@ body {
 }
 
 .subtitle {
-  font-size: 2.0em;
-  padding-top: .7rem;
-  font-family: 'nasalation', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 2.3em;
+  padding-top: 1.5rem;
+  font-family: 'raleway', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   color: #333333;
-  text-shadow: .1rem .1rem 0.7rem rgba(0, 0, 0, .3);
+  text-shadow: .1rem .3rem 0.2rem rgba(0, 0, 0, .3);
 }
 
 .logo {
   padding-bottom: 1rem;
-  filter: drop-shadow(0.1rem 0.3rem 0.5rem rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(0.1rem 0.3rem 0.4rem rgba(0, 0, 0, 0.4));
+  /* filter: drop-shadow(0.1rem 0.3rem 0.4rem rgba(36, 79, 155, 0.4)); */
 }
 
 .social-icon {
